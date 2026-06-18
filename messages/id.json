@@ -1,0 +1,487 @@
+{
+    "navigation": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "experience": "Experience",
+        "skills": "Skills",
+        "achievements": "Achievements",
+        "blog": "Blog",
+        "gallery": "Gallery",
+        "contact": "Contact",
+        "resume": "Resume",
+        "tools": "Tools",
+        "menu": {
+            "achievements": "Achievements",
+            "achievementsDesc": "Certifications, awards, and milestones",
+            "skills": "Skills",
+            "skillsDesc": "Technologies and tools I work with",
+            "experience": "Experience",
+            "experienceDesc": "My professional journey and growth",
+            "projects": "Projects",
+            "projectsDesc": "A showcase of all my work",
+            "blog": "Blog",
+            "blogDesc": "Thoughts and technical explorations",
+            "gallery": "Gallery",
+            "galleryDesc": "Visual archive of media and projects"
+        },
+        "shortcuts": {
+            "volume1": "Volume I: Identity",
+            "volume2": "Volume II: Professional Sequence",
+            "volume3": "Volume III: Competency Matrix",
+            "volume4": "Volume IV: Creative Output",
+            "preview": "Preview Mode",
+            "idRef": "ID_REF"
+        }
+    },
+    "hero": {
+        "greeting": "Welcome to my digital space",
+        "subtitle": "PHP Developer | CodeIgniter Specialist | System Technician",
+        "cta": {
+            "primary": "Explore Projects",
+            "secondary": "Get in Touch",
+            "exploreMore": "Explore More"
+        },
+        "badge": "Available for opportunities",
+        "scroll": "Scroll Down",
+        "role": "Backend Engineer",
+        "description": "Building robust backend systems at the intersection of <span class='text-primary font-semibold'>PHP</span>, <span class='text-secondary font-semibold'>Laravel</span>, and <span class='text-accent font-semibold'>Scalable Architecture</span>."
+    },
+    "about": {
+        "title": "About Me",
+        "subtitle": "PHP Developer & System Technician",
+        "description": "A PHP Developer currently training at Duplex Solutions Co and a seasoned System Technician with 4+ years in hardware, networking, and IT support.",
+        "stats": {
+            "experience": "Years IT Exp.",
+            "projects": "Projects Done",
+            "certifications": "Certifications",
+            "competitions": "Languages"
+        },
+        "identity": "Identity Link Established",
+        "architecting": "Architecting",
+        "digitalReality": "Digital Solutions",
+        "leadIn": {
+            "label": "WHAT I DO",
+            "applied": "Robust",
+            "intelligence": "backends.",
+            "production": "Production",
+            "engineering": "engineering.",
+            "thesis": "I develop PHP and CodeIgniter applications while supporting the <span class='text-primary italic font-serif-elegant font-normal'>infrastructure</span> behind them.",
+            "scope": "Focusing on PHP, CodeIgniter, MySQL, Bootstrap, and REST API development designed for enterprise environments and optimized workflow efficiency.",
+            "bridging": "Building Web Applications & Solving Hardware Challenges",
+            "integration": "Beyond code, I manage IT infrastructure: Hardware Diagnostics, Network Troubleshooting, System Administration, and Technical Support.",
+            "signature": "Faheem",
+            "role": "PHP Developer & System Technician",
+            "aboutMe": "About Me",
+            "scroll": "Scroll to Explore",
+            "shortStory": "My Short Story"
+        },
+        "coreEngineering": {
+            "label": "Core Engineering",
+            "title": "Proven <span class='text-primary italic font-serif font-light lowercase'>stack.</span> <br /> Measurable <span class='italic font-serif font-light text-foreground'>results.</span>",
+            "p1": "I develop enterprise web applications using PHP, Laravel, and MySQL, building robust backend systems with clean architecture and optimized queries.",
+            "p2": "Integrated into full-stack solutions with React, JavaScript, and Flutter for cross-platform delivery.",
+            "p3": "All projects follow disciplined development practices with Git version control and are built for stable production deployment.",
+            "gpa": "Academic GPA",
+            "projects": "Projects Built",
+            "years": "Years IT Exp."
+        },
+        "emergingResearch": {
+            "label": "Exploration Phase",
+            "title": "EXPANDING SKILLS <span class='italic font-serif font-light text-primary lowercase'>&</span> GROWTH",
+            "agentic": {
+                "title": "FULL-STACK DEVELOPMENT",
+                "desc": "Expanding into full-stack development with React and Next.js — building modern, interactive frontends that complement my strong backend expertise."
+            },
+            "web3": {
+                "title": "MOBILE DEVELOPMENT",
+                "desc": "Building cross-platform mobile applications with Flutter and Dart. Currently developing AI-powered diagnostic tools and marketplace solutions."
+            }
+        },
+        "profile": {
+            "title": "Crafting Digital Solutions <br /> Where Backend Meets <span class='text-primary italic font-serif font-light lowercase'>Hardware</span>.",
+            "narrativeLabel": "Core Narrative",
+            "narrative": "As a Computer Science graduate specializing in PHP Development and System Administration, I focus on building systems that bridge robust backend architecture with real-world IT infrastructure.",
+            "narrative2": "My work combines backend engineering, database optimization, and hardware expertise to deliver solutions that are reliable, efficient, and built for enterprise-scale impact.",
+            "pillars": {
+                "reliable": {
+                    "title": "Robust by Design",
+                    "desc": "Engineered for reliability under scale and operational pressure."
+                },
+                "optimized": {
+                    "title": "Production-Ready",
+                    "desc": "From prototype to deployment with engineering discipline."
+                },
+                "maintainable": {
+                    "title": "Architected for Evolution",
+                    "desc": "Designed to grow, adapt, and sustain long-term system development."
+                },
+                "evolvable": {
+                    "title": "Infrastructure-Aware",
+                    "desc": "Decisions powered by understanding both the stack and the hardware it runs on."
+                }
+            }
+        },
+        "closing": {
+            "experience": {
+                "label": "BACKGROUND",
+                "title1": "KEY",
+                "title2": "EXPERIENCE",
+                "viewMore": "Full Experience"
+            },
+            "projects": {
+                "label": "PORTFOLIO",
+                "title1": "FLAGSHIP",
+                "title2": "PROJECTS",
+                "viewMore": "All Projects"
+            },
+            "experiencesList": [
+                {
+                    "company": "Duplex Solutions Co",
+                    "role": "PHP DEVELOPER — TRAINEE",
+                    "desc": "Developing enterprise-grade web applications using PHP, Laravel, and MySQL. Successfully customized an existing ERP system by developing new features and optimizing backend logic."
+                },
+                {
+                    "company": "PCFIX",
+                    "role": "SYSTEM TECHNICIAN",
+                    "desc": "Expert technical lead for hardware architecture, advanced system diagnostics, and large-scale network deployments. Managing end-to-end IT infrastructure for clients."
+                },
+                {
+                    "company": "Nano Computers",
+                    "role": "SYSTEM TECHNICIAN",
+                    "desc": "Managed daily IT operations, hardware troubleshooting, and preventive maintenance. Optimized system performance and reliability across multi-device environments."
+                }
+            ],
+            "projectsList": [
+                {
+                    "title": "ERP System Customization",
+                    "desc": "Comprehensive customization of an enterprise ERP system. Developed new business modules and optimized complex backend logic using PHP and MySQL."
+                },
+                {
+                    "title": "LapFix AI",
+                    "desc": "AI-powered laptop diagnostic marketplace connecting users with verified technicians. Features smart hardware scanning, slot-based booking, and automated diagnostic reports."
+                },
+                {
+                    "title": "MD Logistics Billing",
+                    "desc": "Full-scale billing and invoice management system with real-time calculations and automated PDF generation for high-volume logistics operations."
+                },
+                {
+                    "title": "PCFIX Service Management",
+                    "desc": "High-performance service management platform with immersive 3D landing page, real-time repair status tracking, and robust admin ecosystem."
+                }
+            ],
+            "discoverMore": "Discover More"
+        }
+    },
+    "projects": {
+        "title": "Projects",
+        "subtitle": "A showcase of my creative and technical work",
+        "search": "Search projects...",
+        "viewAll": "View All Projects",
+        "viewProject": "View Project",
+        "liveDemo": "Live Demo",
+        "sourceCode": "Source Code",
+        "techStack": "Tech Stack",
+        "tools": "Tools Used",
+        "highlights": "Highlights",
+        "challenges": "Challenges",
+        "filters": {
+            "all": "All",
+            "ongoing": "Ongoing",
+            "completed": "Completed"
+        },
+        "sections": {
+            "missionBrief": "Mission Brief",
+            "keyFeatures": "Key Features",
+            "engineeringChronicles": "Engineering Chronicles",
+            "visualGallery": "Visual Gallery",
+            "installation": "Installation Instructions",
+            "projectAccess": "Project Access",
+            "technologies": "Technologies",
+            "contents": "Table of Contents",
+            "moreProjects": "More Projects",
+            "backToProjects": "Back to Projects",
+            "viewMore": "View More",
+            "viewLess": "Show Less",
+            "solution": "Solution",
+            "liveDemo": "Live Demo",
+            "sourceCode": "Source Code"
+        },
+        "status": {
+            "ongoing": "Active Development",
+            "completed": "Completed Project"
+        },
+        "metadata": {
+            "role": "Role",
+            "timeline": "Timeline",
+            "team": "Team",
+            "techStack": "Tech Stack",
+            "roleValue": "Backend Developer",
+            "teamValue": "Individual",
+            "techStackValue": "{count} Technologies"
+        }
+    },
+    "experience": {
+        "title": "Experience",
+        "subtitle": "My professional journey and growth",
+        "showDetail": "Show Detail",
+        "hideDetail": "Hide Detail",
+        "tasks": "TASKS",
+        "learned": "WHAT I LEARNED",
+        "impact": "IMPACT",
+        "present": "Present",
+        "responsibilities": "Responsibilities",
+        "skills": "Skills Used",
+        "month": "month",
+        "months": "months",
+        "year": "year",
+        "years": "years",
+        "type": {
+            "full-time": "Full-time",
+            "part-time": "Part-time",
+            "internship": "Internship",
+            "freelance": "Freelance",
+            "contract": "Contract",
+            "apprenticeship": "Apprenticeship",
+            "volunteer": "Volunteer"
+        },
+        "filters": {
+            "all": "All",
+            "latest": "Latest",
+            "oldest": "Oldest",
+            "ongoing": "Ongoing"
+        },
+        "education": {
+            "title": "Education"
+        }
+    },
+    "expertise": {
+        "title": "Core Capabilities",
+        "subtitle": "Specialized in backend engineering and IT infrastructure that power modern digital systems",
+        "dragHint": "Drag or scroll to explore"
+    },
+    "skills": {
+        "title": "Skills & Tools",
+        "subtitle": "Technologies and tools I work with",
+        "hard": "Hard Skills",
+        "soft": "Soft Skills",
+        "tools": "Tools & Software",
+        "level": {
+            "beginner": "Beginner",
+            "intermediate": "Intermediate",
+            "advanced": "Advanced",
+            "expert": "Expert"
+        }
+    },
+    "achievements": {
+        "title": "Achievements",
+        "subtitle": "Certifications, awards, and milestones",
+        "viewCredential": "View Credential",
+        "category": {
+            "certification": "Certification",
+            "award": "Award",
+            "publication": "Publication"
+        }
+    },
+    "contact": {
+        "title": "Get in Touch",
+        "subtitle": "Let's build something amazing together",
+        "form": {
+            "name": "Your Name",
+            "email": "Your Email",
+            "subject": "Subject",
+            "message": "Your Message",
+            "messagePlaceholder": "Tell me about your project...",
+            "send": "Send Message",
+            "submit": "SEND MESSAGE",
+            "sending": "SENDING...",
+            "sent": "SENT!",
+            "success": "Message sent successfully!",
+            "error": "Something went wrong. Please try again."
+        },
+        "social": {
+            "title": "Connect on Social Media"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions"
+        },
+        "info": {
+            "email": "Email",
+            "phone": "Phone",
+            "location": "Location",
+            "availability": "Open for opportunities"
+        },
+        "hero": {
+            "title": "LET'S TALK",
+            "subtitle": "Have an idea? Let's build something extraordinary together.",
+            "ticker": {
+                "build": "Let's Build Something Amazing · ",
+                "freelance": "Available for Freelance · "
+            }
+        },
+        "faqData": [
+            {
+                "q": "What is your main area of expertise?",
+                "a": "I'm a PHP Developer and Backend Engineer with training at Duplex Solutions Co, alongside 4+ years of experience as a System Technician. I specialize in PHP, Laravel, MySQL, and enterprise web application development."
+            },
+            {
+                "q": "Are you available for freelance or full-time roles?",
+                "a": "Yes, I'm open to full-time backend development roles and freelance opportunities. I can bring both software development and IT infrastructure expertise to your projects."
+            },
+            {
+                "q": "What is your typical tech stack?",
+                "a": "For backend development, I primarily use PHP with Laravel and MySQL. For frontend, I work with React, JavaScript, and HTML5/CSS3. I also build mobile apps with Flutter."
+            },
+            {
+                "q": "Do you have experience with enterprise projects?",
+                "a": "Yes, I've customized and optimized enterprise ERP systems at Duplex Solutions Co, built full-scale billing systems for logistics operations, and developed AI-powered marketplace platforms."
+            },
+            {
+                "q": "How can we start a project together?",
+                "a": "The best way is to use the contact form above or reach out directly via email at mohammedfaheemkdy@gmail.com. I respond within 24 hours."
+            }
+        ]
+    },
+    "stats": {
+        "systemStatus": "System Status: Analytics Active",
+        "portfolio": "Engineering Metrics",
+        "totalPulse": "Total Pulse",
+        "peakActivity": "Peak Activity",
+        "dailyAverage": "Daily Average",
+        "currentSprint": "Current Sprint",
+        "engageFlow": "Engage Flow",
+        "weeklyEffort": "Weekly Coding Effort",
+        "processSpeed": "Process Speed",
+        "avgPerf": "Average Performance",
+        "latency": "LATENCY: 14MS",
+        "system": "SYSTEM: STABLE",
+        "scanning": "SCANNING_LIVE_RESOURCES",
+        "engineering": "ENGINEERING",
+        "metrics": "METRICS",
+        "analyticsSub": "ANALYTICS / INFRASTRUCTURE / PERFORMANCE DATA",
+        "statusOnline": "STATUS: ONLINE",
+        "loadStable": "SYSTEM_LOAD: STABLE"
+    },
+    "projectHeader": {
+        "title": "Crafting Digital Solutions",
+        "subtitle": "A curated showcase of technical innovation and backend engineering. Building enterprise-grade <span class='font-bold text-white'>PHP Applications</span>, full-stack solutions, and IT infrastructure systems."
+    },
+    "footer": {
+        "copyright": "All rights reserved.",
+        "madeWith": "Made with",
+        "more": "More",
+        "marquee": [
+            "Open to Opportunities",
+            "PHP Development",
+            "Backend Architecture",
+            "System Administration",
+            "Database Optimization",
+            "IT Infrastructure"
+        ],
+        "cta": {
+            "title": "Let's Work",
+            "titleHighlight": "Together",
+            "subtitle": "Have a project in mind? Let's build something extraordinary that solves real problems."
+        },
+        "links": "LINKS",
+        "socials": "SOCIALS",
+        "localTime": "LOCAL TIME",
+        "version": "VERSION",
+        "versionEdition": "2025 © Edition"
+    },
+    "ctaSection": {
+        "title": "Let's Build Something",
+        "together": "Together",
+        "subtitle": "Open to full-time backend roles and freelance opportunities. Let's transform ambitious ideas into production-ready solutions.",
+        "start": "Hire Me",
+        "work": "View My Resume",
+        "words": {
+            "amazing": "Amazing",
+            "innovative": "Innovative",
+            "intelligent": "Robust",
+            "creative": "Scalable"
+        },
+        "ribbon1": "PHP • Laravel • MySQL • React • JavaScript • Flutter •",
+        "ribbon2": "Backend Engineer • System Technician • PHP Developer • IT Infrastructure •"
+    },
+    "common": {
+        "loading": "Loading...",
+        "error": "Something went wrong",
+        "notFound": "Page not found",
+        "backHome": "Back to Home",
+        "viewMore": "View More",
+        "readMore": "Read More",
+        "close": "Close",
+        "download": "Download",
+        "share": "Share",
+        "scrollAudit": "Scroll to explore"
+    },
+    "technical": {
+        "github": {
+            "title": "GitHub Contributions",
+            "description": "My GitHub activity over the last year.",
+            "total": "Total",
+            "thisWeek": "This Week",
+            "best": "Best",
+            "average": "Average",
+            "less": "Less",
+            "more": "More"
+        },
+        "wakatime": {
+            "title": "WakaTime Stats",
+            "description": "Coding activity over the last 7 days.",
+            "lastUpdate": "Last Updated",
+            "startDate": "Start Date",
+            "endDate": "End Date",
+            "dailyAverage": "Daily Average",
+            "totalWeek": "Total This Week",
+            "bestDay": "Best Day",
+            "totalSince": "Total Since Joined",
+            "topLanguages": "Top Languages"
+        }
+    },
+    "blog": {
+        "title": "Thoughts & Explorations",
+        "subtitle": "Insights on Backend Development, IT Infrastructure, and Software Engineering.",
+        "sectionBadge": "The Digital Archive",
+        "search": "Search articles...",
+        "readTime": "min read",
+        "readMore": "Read Post",
+        "back": "Back to Blog",
+        "noResults": "No articles found",
+        "categories": {
+            "applied-ai": "Backend",
+            "software-development": "Software Dev",
+            "about-me": "About Me",
+            "more": "More"
+        }
+    },
+    "gallery": {
+        "title": "Visual Archive",
+        "subtitle": "A curated collection of project highlights and professional work.",
+        "filter": {
+            "all": "All Media",
+            "image": "Photos",
+            "video": "Videos"
+        },
+        "viewMedia": "View Media"
+    },
+    "chatbot": {
+        "title": "AI Assistant",
+        "subtitle": "Ask me about Faheem",
+        "placeholder": "Type a message...",
+        "greeting": "Hi! I'm an AI assistant for **{name}**. 👋\n\nI can answer questions about:\n- Skills & technical expertise\n- Projects and work\n- Experience\n- Education\n- And more!\n\nAnything you'd like to ask?",
+        "suggestions": [
+            "What are your main skills?",
+            "Tell me about your best project",
+            "What is your work experience?",
+            "What PHP skills do you have?"
+        ],
+        "error": "An error occurred. Please try again.",
+        "invalidResponse": "Invalid response from server.",
+        "unknownError": "An unknown error occurred.",
+        "retry": "Try again",
+        "inputHint": "Enter to send, Shift+Enter for newline",
+        "close": "Close chat"
+    }
+}
