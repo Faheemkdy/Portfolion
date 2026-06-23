@@ -24,13 +24,15 @@ export const ProjectContact = ({ isLowPowerMode }: { isLowPowerMode?: boolean })
                     isLowPowerMode={isLowPowerMode}
                     text={
                         <>
-                            <strong>Ready to build something extra ordinary?</strong> wether it's AI, Blockchain, or a wild 3D web experience. I'm always open to discussing new ideas.
+                            <strong>Have an idea? Let's make it happen.</strong> I specialize in developing scalable web solutions, optimizing workflows, and delivering technology that drives results. Whether it's a business website, web application, management system, or technical support solution, I'm always open to discussing new projects and opportunities.
                         </>
                     }
                     examples={[
-                        "Looking for a Software & AI Engineer?",
-                        "Need an AI solution for your business?",
-                        "Just want to say hi?",
+                        "Let's discuss your next project.",
+                        "Need a website or web application?",
+                        "Looking for technical support?",
+                        "Let's work together.",
+                        "Open for freelance opportunities.",
                     ]}
                 />
             </div>
