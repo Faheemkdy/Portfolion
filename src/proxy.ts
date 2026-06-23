@@ -7,8 +7,9 @@ export function proxy(request: NextRequest) {
     // Check for mobile devices
     const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(userAgent);
 
-    if (isMobile) {
-        return NextResponse.redirect('/');
+    // Only redirect if they are mobile AND not already on the homepage '/'
+    if (isMobile && request.nextUrl.pathname !== '/') {
+        return NextResponse.redirect(new URL('/', request.url));
     }
 
     return NextResponse.next();
