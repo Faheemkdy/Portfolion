@@ -314,8 +314,8 @@ export function Footer() {
                                         </motion.button>
                                     </div>
 
-                                    {/* Main Grid - Forced 4-column layout regardless of zoom/screen */}
-                                    <div className="w-full grid grid-cols-4 gap-x-[5vw] gap-y-[4vh]">
+                                    {/* Main Grid - Responsive: 2-col on mobile, 4-col on large screens */}
+                                    <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-x-[5vw] gap-y-[6vh] lg:gap-y-[4vh]">
                                         <FooterColumn title={t('links')}>
                                             <FooterLink href="/">{tNav('home')}</FooterLink>
                                             <FooterLink href="/resume">{tNav('resume')}</FooterLink>

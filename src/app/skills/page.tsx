@@ -136,7 +136,7 @@ function FloatingTechBubbles({ mouseX, mouseY }: { mouseX: any, mouseY: any }) {
     ];
 
     return (
-        <div className="absolute inset-0 z-10 pointer-events-none overflow-hidden">
+        <div className="absolute inset-0 z-10 pointer-events-none overflow-hidden hidden md:block">
             {bubbles.map((b, i) => (
                 <Bubble key={i} b={b} mouseX={mouseX} mouseY={mouseY} />
             ))}

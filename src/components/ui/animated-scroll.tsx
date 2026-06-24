@@ -158,9 +158,12 @@ function PageSlide({ page, isActive, scrollProgress, index }: { page: any, isAct
         <motion.div style={{ zIndex }} className="absolute inset-0 overflow-hidden bg-background dark:bg-black">
             <motion.div
                 style={{ y: leftY }}
-                className="absolute top-0 left-0 w-1/2 h-full overflow-visible bg-background dark:bg-black"
+                className={cn(
+                    "absolute left-0 overflow-visible bg-background dark:bg-black w-full md:w-1/2",
+                    leftIsImage ? "top-0 h-[40vh] md:h-full" : "top-0 h-[60vh] md:h-full"
+                )}
             >
-                <div className="absolute top-0 -right-[2px] w-[2px] h-full bg-background dark:bg-black z-50 pointer-events-none" />
+                <div className="absolute bottom-0 md:bottom-auto md:top-0 md:-right-[2px] left-0 w-full h-[2px] md:w-[2px] md:h-full bg-background dark:bg-black z-50 pointer-events-none" />
                 <div className="absolute -top-[10vh] left-0 w-full h-[10vh] bg-gradient-to-t from-background dark:from-black to-transparent z-50 pointer-events-none" />
                 <div className="absolute -bottom-[10vh] left-0 w-full h-[10vh] bg-gradient-to-b from-background dark:from-black to-transparent z-50 pointer-events-none" />
 
@@ -168,7 +171,7 @@ function PageSlide({ page, isActive, scrollProgress, index }: { page: any, isAct
                     {page.leftBgImage ? (
                         <BlendedVisual src={page.leftBgImage} side="left" />
                     ) : (
-                        <div className="w-full h-full flex items-center justify-start p-12 md:p-24 lg:p-32 xl:p-40 relative group">
+                        <div className="w-full h-full flex items-center justify-start p-6 md:p-24 lg:p-32 xl:p-40 relative group">
                             <motion.div
                                 className={cn("absolute inset-0 z-0", page.leftContent?.hoverColor || "bg-primary/5")}
                                 initial={{ height: 0 }}
@@ -183,9 +186,12 @@ function PageSlide({ page, isActive, scrollProgress, index }: { page: any, isAct
 
             <motion.div
                 style={{ y: rightY }}
-                className="absolute top-0 left-1/2 w-1/2 h-full overflow-visible bg-background dark:bg-black"
+                className={cn(
+                    "absolute left-0 md:left-1/2 w-full md:w-1/2 overflow-visible bg-background dark:bg-black",
+                    rightIsImage ? "top-[60vh] md:top-0 h-[40vh] md:h-full" : "top-[40vh] md:top-0 h-[60vh] md:h-full"
+                )}
             >
-                <div className="absolute top-0 -left-[2px] w-[2px] h-full bg-background dark:bg-black z-50 pointer-events-none" />
+                <div className="absolute top-0 md:-left-[2px] left-0 w-full h-[2px] md:w-[2px] md:h-full bg-background dark:bg-black z-50 pointer-events-none" />
                 <div className="absolute -top-[10vh] left-0 w-full h-[10vh] bg-gradient-to-t from-background dark:from-black to-transparent z-50 pointer-events-none" />
                 <div className="absolute -bottom-[10vh] left-0 w-full h-[10vh] bg-gradient-to-b from-background dark:from-black to-transparent z-50 pointer-events-none" />
 
@@ -193,7 +199,7 @@ function PageSlide({ page, isActive, scrollProgress, index }: { page: any, isAct
                     {page.rightBgImage ? (
                         <BlendedVisual src={page.rightBgImage} side="right" />
                     ) : (
-                        <div className="w-full h-full flex items-center justify-start p-12 md:p-24 lg:p-32 xl:p-40 relative group">
+                        <div className="w-full h-full flex items-center justify-start p-6 md:p-24 lg:p-32 xl:p-40 relative group">
                             <motion.div
                                 className={cn("absolute inset-0 z-0", page.rightContent?.hoverColor || "bg-primary/5")}
                                 initial={{ height: 0 }}
@@ -221,11 +227,11 @@ function BridgeSlide({ page, isActive, scrollProgress, index }: { page: any, isA
         <motion.div
             style={{ opacity, zIndex: 30 }}
             className={cn(
-                "absolute inset-0 bg-background dark:bg-black flex flex-col items-center justify-center p-12 text-center",
+                "absolute inset-0 bg-background dark:bg-black flex flex-col items-center justify-center p-6 md:p-12 text-center",
                 isActive ? "pointer-events-auto" : "pointer-events-none"
             )}
         >
-            <motion.div style={{ y }} className="space-y-16 max-w-[1200px] w-full px-[5%]">
+            <motion.div style={{ y }} className="space-y-8 md:space-y-16 max-w-[1200px] w-full px-[5%]">
                 <h2 className="text-4xl md:text-5xl lg:text-7xl font-medium tracking-tight text-foreground dark:text-white leading-[1.1] font-sans">
                     Featured <br className="hidden md:block" />
                     Projects
@@ -259,35 +265,35 @@ function BlendedVisual({ src, side }: { src: string, side: 'left' | 'right' }) {
             <div className={cn(
                 "absolute inset-0 pointer-events-none z-10",
                 side === 'left'
-                    ? "bg-gradient-to-r from-transparent via-transparent to-background dark:to-black"
-                    : "bg-gradient-to-l from-transparent via-transparent to-background dark:to-black",
+                    ? "bg-gradient-to-b md:bg-gradient-to-r from-transparent via-transparent to-background dark:to-black"
+                    : "bg-gradient-to-t md:bg-gradient-to-l from-transparent via-transparent to-background dark:to-black",
             )} />
             <div className="absolute inset-0 bg-gradient-to-b from-background via-transparent to-background dark:from-black dark:via-transparent dark:to-black opacity-40 pointer-events-none z-10" />
-            <div className="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-background dark:from-black to-transparent pointer-events-none z-20" />
-            <div className="absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-background dark:from-black to-transparent pointer-events-none z-20" />
+            <div className="absolute inset-x-0 top-0 h-24 md:h-48 bg-gradient-to-b from-background dark:from-black to-transparent pointer-events-none z-20" />
+            <div className="absolute inset-x-0 bottom-0 h-24 md:h-48 bg-gradient-to-t from-background dark:from-black to-transparent pointer-events-none z-20" />
         </div>
     );
 }
 
 function EditorialContent({ content, index }: { content: any, index: number }) {
     return (
-        <div className="flex flex-col items-start text-left space-y-12 max-w-2xl w-full relative z-10">
-            <div className="space-y-6">
-                <div className="flex items-center gap-6">
-                    <span className="text-[11px] font-mono font-black tracking-[0.5em] text-primary uppercase opacity-60">
+        <div className="flex flex-col items-start text-left space-y-4 md:space-y-12 max-w-2xl w-full relative z-10">
+            <div className="space-y-3 md:space-y-6">
+                <div className="flex items-center gap-4 md:gap-6">
+                    <span className="text-[9px] md:text-[11px] font-mono font-black tracking-[0.5em] text-primary uppercase opacity-60">
                         FEATURE — 0{index + 1}
                     </span>
-                    <div className="h-[1px] w-12 bg-primary/20" />
+                    <div className="h-[1px] w-8 md:w-12 bg-primary/20" />
                 </div>
-                <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tighter leading-tight text-foreground font-sans">
+                <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold uppercase tracking-tighter leading-tight text-foreground font-sans">
                     {content.heading}
                 </h2>
-                <p className="text-xl md:text-2xl text-muted-foreground font-medium leading-tight max-w-lg">
+                <p className="text-sm sm:text-base md:text-xl lg:text-2xl text-muted-foreground font-medium leading-tight max-w-lg">
                     {content.description}
                 </p>
             </div>
             {content.skills && (
-                <div className="flex flex-wrap gap-4 pt-6">
+                <div className="flex flex-wrap gap-2 md:gap-4 pt-2 md:pt-6">
                     {content.skills.map((skill: string, idx: number) => (
                         <MagneticTag key={skill} text={skill} index={idx} />
                     ))}
@@ -330,11 +336,11 @@ function MagneticTag({ text, index }: { text: string, index: number }) {
         <div
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
-            className="relative cursor-pointer p-2 -m-2 pointer-events-auto"
+            className="relative cursor-pointer p-1 md:p-2 -m-1 md:-m-2 pointer-events-auto"
         >
             <motion.div
                 style={{ x: springX, y: springY }}
-                className="group/badge relative overflow-hidden text-[10px] md:text-[11px] font-bold uppercase tracking-widest text-foreground/40 border border-foreground/10 px-8 py-4 rounded-xl bg-foreground/[0.02] backdrop-blur-xl hover:border-transparent transition-colors duration-300"
+                className="group/badge relative overflow-hidden text-[9px] md:text-[11px] font-bold uppercase tracking-widest text-foreground/40 border border-foreground/10 px-4 py-2 md:px-8 md:py-4 rounded-md md:rounded-xl bg-foreground/[0.02] backdrop-blur-xl hover:border-transparent transition-colors duration-300"
             >
                 <div className={cn("absolute inset-0 translate-y-[101%] group-hover/badge:translate-y-0 transition-transform duration-300 ease-out z-0", color.main)} />
                 <span className={cn("relative z-10 transition-colors duration-300", color.textHover)}>{text}</span>

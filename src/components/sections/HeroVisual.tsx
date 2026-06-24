@@ -141,8 +141,8 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
         />
       </div>
 
-      <main className="relative flex-1 flex flex-col justify-center pt-40 pb-20 z-10">
-        <div className="flex relative gap-4 px-6 md:items-center w-full flex-col justify-center">
+      <main className="relative flex-1 flex flex-col justify-center pt-28 md:pt-40 pb-20 z-10">
+        <div className="flex relative gap-4 px-4 md:px-6 md:items-center w-full flex-col justify-center overflow-x-hidden">
 
           {/* Line 1: AI & DATA */}
           <div className="md:flex gap-8 items-center relative">
@@ -168,7 +168,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isExiting ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                 transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-                className="text-[clamp(2.5rem,8vw,10rem)] font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4 whitespace-nowrap"
+                className="text-[clamp(1.8rem,8vw,10rem)] font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4 whitespace-nowrap"
               >
                 PHP DEVELOPER
               </motion.h1>
@@ -200,7 +200,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
                 initial={{ opacity: 0, y: 30 }}
                 animate={isExiting ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                 transition={{ duration: 1.2, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
-                className="text-[clamp(2.5rem,8vw,10rem)] md:flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4 whitespace-nowrap"
+                className="text-[clamp(2.5rem,10vw,10rem)] md:flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4 md:whitespace-nowrap"
               >
                 <span className="">& SYSTEM</span>
                 <div ref={zapRef} className="hidden lg:block mx-[0.1em]">
@@ -219,7 +219,7 @@ export function HeroVisual({ isExiting }: { isExiting?: boolean }) {
               initial={{ opacity: 0, y: 30 }}
               animate={isExiting ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
               transition={{ duration: 1.2, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
-              className="text-[clamp(2.5rem,8vw,10rem)] md:flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4 whitespace-nowrap"
+              className="text-[clamp(1.8rem,8vw,10rem)] md:flex items-center font-black leading-[0.85] tracking-tighter text-shiny will-change-transform px-4 md:whitespace-nowrap"
             >
               <span className="">TECH</span>
               <div ref={botRef} className="mx-[0.1em] relative">

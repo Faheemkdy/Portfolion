@@ -348,12 +348,12 @@ export default function ContactPage() {
             >
 
                 {/* Header Section (Flows normally) */}
-                <div className="relative w-full pt-48 pb-20">
+                <div className="relative w-full pt-28 md:pt-48 pb-20">
                     <div className="w-full flex items-center justify-center opacity-20 select-none pointer-events-none">
                         <DynamicScrollVelocity
                             texts={[t('hero.ticker.build'), t('hero.ticker.freelance')]}
                             velocity={20}
-                            className="text-7xl md:text-[9rem] font-black tracking-tight uppercase whitespace-nowrap"
+                            className="text-4xl md:text-7xl md:text-[9rem] font-black tracking-tight uppercase whitespace-nowrap"
                             isLowPowerMode={isLowPowerMode}
                         />
                     </div>
@@ -361,11 +361,11 @@ export default function ContactPage() {
 
                 {/* Interaction Section (Lanyard + Social + Form) */}
                 {/* We keep this relative and stable. No shrinking or fading here. */}
-                <div className="container-creative px-4 md:px-8 max-w-[1800px] mx-auto pb-40">
+                <div className="container-creative px-4 md:px-8 max-w-[1800px] mx-auto pb-20 md:pb-40">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
 
                         {/* LEFT COLUMN: Lanyard */}
-                        <div className="col-span-1 lg:col-span-4 relative lg:sticky top-0 h-[400px] md:h-[500px] lg:h-[90vh] pointer-events-none z-20">
+                        <div className="col-span-1 lg:col-span-4 relative lg:sticky top-0 h-[280px] md:h-[400px] lg:h-[90vh] pointer-events-none z-20">
                             {/* Anchor Slot/Bar for Lanyard */}
                             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-48 md:w-64 lg:w-96 h-2 bg-gradient-to-r from-transparent via-foreground/20 to-transparent blur-[2px] rounded-full z-30 mt-[-1px]" />
                             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-24 md:w-32 lg:w-48 h-[3px] bg-gradient-to-r from-transparent via-foreground/40 to-transparent rounded-full z-30" />

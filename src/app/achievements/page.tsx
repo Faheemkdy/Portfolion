@@ -660,12 +660,12 @@ export default function AchievementsPage() {
                     <motion.div
                         initial={false}
                         animate={{
-                            width: isSidebarCollapsed ? "80px" : "33.333333%",
+                            width: isSidebarCollapsed ? "80px" : undefined,
                         }}
                         transition={{ type: "spring", stiffness: 300, damping: 30 }}
                         className={cn(
-                            "w-full h-auto lg:sticky lg:top-0 py-12 lg:py-36 flex flex-col z-40 bg-background/95 backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-none border-r border-border/10",
-                            isSidebarCollapsed && "items-center"
+                            "w-full lg:w-1/3 h-auto lg:sticky lg:top-0 py-8 lg:py-36 flex flex-col z-40 bg-background/95 backdrop-blur-sm lg:bg-transparent lg:backdrop-blur-none border-b lg:border-b-0 lg:border-r border-border/10",
+                            isSidebarCollapsed && "lg:w-[80px] items-center"
                         )}
                     >
 
